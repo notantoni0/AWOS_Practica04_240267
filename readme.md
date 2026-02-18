@@ -16,7 +16,8 @@ El proyecto estará basado en una Arquitectura SOA (Service Oriented Architectur
 |No.|Descripción|Potenciador|Estado|
 |---|---|---|---|
 |1.| Configuración inicial del Proyecto (NodeJS) | 1 | Completado |
-|2.| Configuración de Tailwind CSS 4 | 1 | En progreso |
+|2.| Configuración de Tailwind CSS 4 | 1 | Completado |
+|2.| Configuración del Servidor Express | 1 | En progreso |
 
 
 ## Resultados Obtenidos
