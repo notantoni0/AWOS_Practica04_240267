@@ -20,7 +20,9 @@ El proyecto estará basado en una Arquitectura SOA (Service Oriented Architectur
 |3.| Configuración del Servidor Express | 1 | Completado |
 |4.| Configuración de API Keys Gratuitas | 1 | Completado |
 |5.| Implementación de Passport y Estrategias OAuth | 1 | Completado |
-|6.| Creación de Vistas con Tailwind CSS | 1 | En progreso |
+|6.| Creación de Vistas con Tailwind CSS | 1 | Completado |
+|7.| Página de Perfil y Consumo de API | 1 | En progreso |
+|8.| Creación de Vistas con Tailwind CSS | 1 | En progreso |
 
 
 ## Resultados Obtenidos
