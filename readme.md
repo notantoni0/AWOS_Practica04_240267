@@ -18,8 +18,9 @@ El proyecto estará basado en una Arquitectura SOA (Service Oriented Architectur
 |1.| Configuración inicial del Proyecto (NodeJS) | 1 | Completado |
 |2.| Configuración de Tailwind CSS 4 | 1 | Completado |
 |3.| Configuración del Servidor Express | 1 | Completado |
-|4.| Configuración de API Keys Gratuitas | 1 | En progreso |
-|5.| Implementación de Passport y Estrategias OAuth | 1 | En progreso |
+|4.| Configuración de API Keys Gratuitas | 1 | Completado |
+|5.| Implementación de Passport y Estrategias OAuth | 1 | Completado |
+|6.| Creación de Vistas con Tailwind CSS | 1 | En progreso |
 
 
 ## Resultados Obtenidos
