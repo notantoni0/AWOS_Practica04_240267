@@ -6,6 +6,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 40267;
+const authRoutes = require('./routes/auth');
 
 // Configuración básica
 app.set('view engine', 'ejs');
@@ -15,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Configuración de sesión
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'secreto_super_seguro',
+  secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
   cookie: { secure: false } // Cambiar a true en producción con HTTPS
@@ -24,6 +25,7 @@ app.use(session({
 // Inicializar Passport
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(authRoutes);
 
 // Rutas básicas
 app.get('/', (req, res) => {
